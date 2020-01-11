@@ -6,6 +6,8 @@ on:
 jobs:
   note_datatests:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     steps:
       - name: Get Changed Files
         id: changed
