@@ -1,6 +1,7 @@
 name: "Mark Datatests"
+
 on:
-- pull_request
+  pull_request:
 
 jobs:
   note_datatests:
