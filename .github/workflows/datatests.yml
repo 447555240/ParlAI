@@ -5,6 +5,7 @@ on:
 
 jobs:
   note_datatests:
+    runs-on: ubuntu-latest
     steps:
       - name: Get Changed Files
         id: changed
