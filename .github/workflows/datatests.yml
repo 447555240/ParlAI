@@ -20,8 +20,7 @@ jobs:
         uses: mshick/add-pr-comment@v1
         with:
           message: |
-            Your PR contains a change to a task. Please paste the results of
-            the following command into a comment:
+            Your PR contains a change to a task. Please paste the results of the following command into a comment:
 
             ```bash
             python tests/datatests/test_new_tasks.py
